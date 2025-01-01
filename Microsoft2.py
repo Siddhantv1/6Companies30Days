@@ -15,7 +15,7 @@ class Solution(object):
                 total = 0
                 for i in range(max(0, r-1), min(rows, r+2)):
                     for j in range(max(0, c-1), min(cols, c+2)):
-                        total += M[i][j]
+                        total += img[i][j]
                         count += 1
                 result[r][c] = total // count
         
