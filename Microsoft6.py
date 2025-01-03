@@ -1,3 +1,6 @@
+#problem 299 of LC
+
+#Bulls and Cows
 class Solution(object):
     def getHint(self, secret, guess):
         x = len(secret)
